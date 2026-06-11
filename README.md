@@ -20,18 +20,18 @@ This project deploys a machine learning pipeline using **LightGBM** and **SMOTE*
 
 #### Confusion Matrix
 Balances precision and recall, minimizing dangerous false negatives.
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 #### ROC-AUC Trajectory
 Demonstrates the model's performance and classification thresholds.
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](roc_curve.png)
 
 ---
 
 ## Explainable AI (XAI) Insights
 Instead of generic importance metrics, SHAP values show the direction and magnitude of how each patient feature drives or prevents churn.
 
-![SHAP Feature Importance](images/shap_summary.png)
+![SHAP Feature Importance](shap_summary.png)
 
 ### Core Discoveries
 * **The Attrition Trigger (`overall_satisfaction`):** Volatile swing factor; low satisfaction is the strongest driver pushing patients toward defection.
